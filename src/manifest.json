@@ -1,0 +1,21 @@
+{
+  "name" : "Jira Helper",
+  "version" : "1.0",
+  "manifest_version": 2,
+  "description" : "todo",
+  "permissions" : [
+    "clipboardRead",
+    "clipboardWrite"
+  ],
+  "content_scripts" : [
+    {
+      "matches" : [
+        "http://issues.ngptools.com/*",
+        "https://issues.ngptools.com/*"
+      ],
+      "js" : ["contentscript.js"],
+      "css" : ["contentstyle.css"],
+      "all_frames" : false
+    }
+  ]
+}

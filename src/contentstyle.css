@@ -1,0 +1,33 @@
+.alertHeader { display: none; }
+
+table.tt_graph,
+table.tt_graph td,
+table.tt_graph img { height:8px !important; font-size: 8px/8px arial; }
+table.tt_graph img { display:block; }
+
+.graph-tooltip {
+	display:none;
+	position:absolute;
+	width:200px;
+	height:18px;
+	text-align: center;
+	font:13px arial;
+	background:#000;
+	color:#fff;
+	padding:5px 0;
+	top:0;
+	left:0;
+}
+
+.graph-tooltip:after{
+	content:" ";
+	display: block;
+	position: relative;
+	top:7px;
+	left:90px;
+	width:0;
+	border:10px solid #000;
+	border-left-color:transparent;
+	border-right-color:transparent;
+	border-bottom:0;
+}
