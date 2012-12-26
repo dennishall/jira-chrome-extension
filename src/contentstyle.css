@@ -1,5 +1,7 @@
+
 .alertHeader { display: none; }
 
+/* make these twice as tall, easier to mouse-over (jira-defined height is 4px for these) */
 table.tt_graph,
 table.tt_graph td,
 table.tt_graph img { height:8px !important; font-size: 8px/8px arial; }
@@ -19,6 +21,7 @@ table.tt_graph img { display:block; }
 	left:0;
 }
 
+/* down-pointing triangle */
 .graph-tooltip:after{
 	content:" ";
 	display: block;
